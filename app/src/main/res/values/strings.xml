@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My RecyclerView</string>
+    <string name="nombre">My RecyclerView</string>
+    <string name="Tipo">My RecyclerView</string>
+    <string name="descripcion1">mmghgg</string>
+    <string name="descripcion2">My RecyclerView</string>
+    <string name="descripcion3">My RecyclerView</string>
+    <string name="descripcion4">My RecyclerView</string>
+    <string name="descripcion5">My RecyclerView</string>
+    <string name="descripcion6">My RecyclerView</string>
+    <string name="descripcion7">My RecyclerView</string>
+    <string name="descripcion8">My RecyclerView</string>
+    <string name="descripcion9">My RecyclerView</string>
+    <string name="descripcion10">My RecyclerView</string>
+
+</resources>

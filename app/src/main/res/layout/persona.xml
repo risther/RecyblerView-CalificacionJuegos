@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2E2B2B"
+    android:backgroundTint="#3A3535"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="#CDDCDA"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="#AA0E0E"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+
+                <ImageView
+                    android:id="@+id/fotoPersona"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_marginEnd="3dp"
+                    android:contentDescription="@string/nombre" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nombreePersona"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:text="@string/nombre"
+                        android:textColor="#FBF8F8"
+                        android:textColorHint="#DFCBCB"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tipo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:textColor="#EFE9E9"
+                        android:textColorHint="#F4ECEC"
+                        android:textSize="12sp"></TextView>
+
+                    <TextView
+                        android:id="@+id/descripcion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:textColor="#DFCBCB"
+                        android:textColorHint="#F3EFEF"
+                        android:textSize="18sp"></TextView>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <RatingBar
+                android:id="@+id/ratingBar3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#AFA80D"
+                android:progressBackgroundTint="#FFFFFF"
+                android:progressTint="#BFAD0B" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/infoFutbolista"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:id="@+id/linkFutbolista"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
